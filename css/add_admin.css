@@ -1,0 +1,65 @@
+body {
+    background: url(../images/admlog.jpg) no-repeat center;
+    background-size: cover;
+}
+legend{
+    text-align:center;
+}
+form{
+    margin: auto;
+    width: 40%;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    text-align: center;
+  
+}
+
+.first_line,.sec-line,.third-line,.fourth-line,.fifth-line,.sixth-line,.seventh-line.pass{
+    margin: 2%;
+}
+
+.second,.third,.fouth,.fifth,.six,.seven,.eight{
+margin: 1%;
+}
+
+.input-field{
+
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+    height: 50px;
+    width: 98%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    transition: .2s ease;
+}
+.input-field:hover, .input-field:focus{
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.rig,.res{
+    margin:3% 3%;
+	cursor: pointer;
+	font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    height: 45px;
+    width: 25%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgba(30, 30, 30, 0.5);
+    transition: .3s ease-in-out;
+}
+.rig:hover,.rig:focus,.res:hover,.res:focus{
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 5px 7px 1px rgba(255, 255, 255, 0.2);
+
+}
+.reset {
+    display: inline;
+}

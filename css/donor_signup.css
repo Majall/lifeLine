@@ -1,0 +1,111 @@
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+legend{
+    text-align:center;
+}
+fieldset{
+    border-radius: 10px;
+    width: 55%;
+    height:auto;
+    margin: 0 auto;
+}
+
+
+ .first_line,.sec-line,.third-line,.fourth-line,.fifth-line,.sixth-line,.seventh-line{
+    line-height: 40px;
+}
+
+#Salutation, #firstname, #lastname{
+    display: inline-block;
+    padding:0 20px;
+}
+
+.second{
+    padding-bottom: 5px;
+}
+.second,.third,.fouth,.fifth,.six,.seven,.eight{
+    display: inline;
+    padding: 0 20px;
+}
+
+.third-1, .third-2, .fouth-1, .fouth-2, .fifth-1, .fifth-2{
+    display: inline;
+    padding: 0 20px;
+    
+}
+.fouth-1, .fouth-2{
+    display: inline;
+    padding: 0 20px;
+}
+.fifth-1, .fifth-2{
+    display: inline;
+    padding: 0 20px;
+}
+.six-1,.six-2{
+    display: inline;
+    padding: 0 20px;
+}
+.seven-1, .seven-2{
+    display: inline;
+    padding: 0 20px;
+}
+.fouth-2{
+    margin-left: 45px;
+}
+.fifth-2{
+    margin-left: -42px;
+}
+.six-2{
+    margin-left: 17px;
+}
+.seven-2{
+    margin-left: 36px;
+}
+.reset{
+    display: inline;
+    margin:2%;
+    
+}
+input[type="reset"]{
+    margin-left: 25%;
+}
+input::placeholder{
+    opacity: 50%;
+    text-align: center;
+}
+.eight{
+    margin-left:20%;
+}
+.reset > input{
+    color: #000000;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background: white white;
+    
+}
+.right{
+    padding-left: 60%;
+}
+
+.third-line .third-1{
+    margin-right: 85px;
+}
+
+.fourth-line .fouth-1{
+    margin-right: 85px;
+}
+.fifth-line .fifth-1{
+    margin-right: 45px;
+}
+.third-2{
+    margin-left: -3px;
+}
+.lastname{
+    margin-left: -16px;
+    display:inline;
+}
