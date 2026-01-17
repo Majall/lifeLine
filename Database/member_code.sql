@@ -187,8 +187,8 @@ VALUES
     (
         NULL,
         'Mr.',
-        'Mujeeb',
-        'Ahdheer',
+        'Rivoshan',
+        
         '200327713000',
         '2003-10-03',
         'MALE',
